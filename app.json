@@ -1,0 +1,38 @@
+{
+  "pages": [
+    "pages/template/index",
+    "pages/compent/compent",
+    "pages/button/button",
+    "pages/demo1/demo1",
+    "pages/index/index",
+    "pages/demo4/demo4",
+    "pages/demo3/demo3",
+    "pages/demo2/demo2",
+    
+    "pages/logs/logs",
+    "pages/study/first",
+    "pages/nav/nav"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f0a",
+    "navigationBarTitleText": "Test小程序",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#c8f"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/study/first",
+        "text": "Test"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

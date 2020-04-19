@@ -1,0 +1,40 @@
+<view>我叫{{name}}</view>
+
+<view>{{person.name}}</view>
+
+<view>
+复选框 <checkbox checked="{{true}}"></checkbox>
+</view>
+<view>{{1 + 2}}</view>
+<view>{{10 % 3 == 1}}</view>
+
+----------------循环------------------
+<view>
+<view wx:for="{{list}}" wx:for-item="item" wx:for-index="index" wx:key="name">
+ 索引: {{index}} -- {{item.name}}
+</view>
+</view>
+-----------循环对象--------------
+<view wx:for="{{person}}" wx:for-item="value" wx:for-index="key" wx:key="age">
+    {{key}}---{{value}}
+</view>
+
+<view wx:if="{{true}}">不显示</view>
+
+<view hidden="{{true}}">
+    test
+</view>
+
+<view>事件绑定</view>
+<!-- 绑定一个输入事件 -->
+输入一个数字:<input type="text" bindinput="handleInput"></input>
+<view>val: {{val}}</view>
+
+
+  
+<button bindtap="handleTap" data-operation="{{1}}">+1</button>
+<view>
+    num1: {{num1}}
+</view>
+
+<view></view>

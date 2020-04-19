@@ -1,0 +1,16 @@
+
+<swiper autoplay>
+    <swiper-item >
+        <image mode="widthFix" src="//gw.alicdn.com/imgextra/i2/150/O1CN01UA6QnR1Cyk07Op6oT_!!150-0-lubanu.jpg"></image>
+    </swiper-item>
+
+    <swiper-item >
+        <image mode="widthFix" src="//gw.alicdn.com/imgextra/i1/1229096/O1CN01Zsskl32H41CvliyHO_!!1229096-0-lubanu.jpg"></image>
+    </swiper-item>
+
+    <swiper-item >
+        <image mode="widthFix" src="//gw.alicdn.com/imgextra/i1/65673/O1CN01CUBfmI1rmHTPlcOnC_!!65673-0-lubanu.jpg"></image>
+    </swiper-item>
+      
+</swiper>
+  

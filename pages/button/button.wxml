@@ -1,0 +1,27 @@
+<button>默认按钮</button>
+<button size="mini" type="primary" plain>mini按钮</button>
+<view></view>
+
+<button open-type="contact">contact</button>
+<button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">getPhoneNumber</button>  
+<button open-type="getUserInfo" bindgetuserinfo="getUserInfo">getUserInfo</button> 
+
+<view>单选框</view>
+
+<radio-group bindchange="handleChange">
+<radio value="male" color="red">男</radio>
+<radio value="female" color="red">女</radio>
+</radio-group>
+<view>你的性别是: {{gender}}</view>
+
+<view>复选框</view>
+<view>
+<checkbox-group bindchange="getLikedFruit">
+<checkbox wx:for="{{fruitList}}" value="{{item.name}}" wx:key="id">
+{{item.name}}
+</checkbox>
+</checkbox-group>
+</view>
+<view>你喜欢的水果: {{likedFruit}}</view>
+
+<Tabs></Tabs>

@@ -1,0 +1,25 @@
+<template name="odd">
+  <view> odd </view>
+</template>
+<template name="even">
+  <view> even </view>
+</template>
+
+<block wx:for="{{[1, 2, 3, 4, 5]}}" wx:key="*this">
+  <template is="{{item % 2 == 0 ? 'even' : 'odd'}}"/>
+</block>
+
+
+<view>{{ 10 % 2 === 0 ? '偶数':'奇数'}}</view>
+<view>....................</view>
+
+<template name="msgItem">
+  <view>
+    <text> {{index}}: {{msg}} </text>
+    <text> Time: {{time}} </text>
+  </view>
+</template>
+
+<template is="msgItem" data="{{...item}}"/>
+
+<view>1 &nbsb; 2</view>

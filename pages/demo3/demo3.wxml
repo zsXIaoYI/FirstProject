@@ -1,0 +1,13 @@
+<!--pages/demo3/demo3.wxml-->
+<text>pages/demo3/demo3.wxml</text>
+
+<view>
+<view>
+    view颜色1
+</view>
+  <view class="v1">
+      view颜色2
+  </view>
+    
+</view>
+

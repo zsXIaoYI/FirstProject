@@ -1,0 +1,4 @@
+
+<!-- <Tabs temp="a123a"></Tabs> -->
+
+<Tabs tabs="{{tabs}}" binditemChange="handleItemChange"></Tabs>

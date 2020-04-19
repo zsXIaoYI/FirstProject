@@ -1,0 +1,4 @@
+<!--pages/study/first.wxml-->
+<view>hello {{name}}</view>
+<button bindtap="changeName">点击</button>
+<view data-num="{{name}}">xx</view> 

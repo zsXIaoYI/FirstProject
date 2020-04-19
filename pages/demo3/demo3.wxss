@@ -1,0 +1,6 @@
+text {
+  color: yellow;
+}
+view .v1 {
+  color: red;
+}
